@@ -1,5 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
 body{
-    background-color: purple;
+font-size: 14px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+line-height: 24px;
+}
+.heading{
+    color: rgb(247, 231, 7);
+}
+h1{
+    color: rgb(29, 42, 117);
+}
+
+p{
     color: white;
 }
 
+ul{
+    color: white;
+}
+
+#menu{
+    background-color: blue;
+    width: auto;
+    height: 200;
+    color: #fff;
+    padding: 20px 7px;
+    text-align: right;
+    text-decoration: none;
+    border-radius: 7px;
+}
+#menu a{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: rgb(192, 22, 214);
+    border-radius: 7px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+}
+#menu a:hover{
+    background-color: rgb(140, 91, 155);
+}
+
+#heros{
+    background-color: rgb(62, 22, 70);
+    width: auto;
+    height: 400px;
+    padding-top: 100px;
+    margin-top: 7px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+#heros h1{
+    font-size: 60px;
+    color: white;
+    margin: 30px;
+}
+
+#heros p{
+    font-size: 30px;
+    color: #fff;
+    margin: 30px;
+}
+#heros a{
+    background-color: rgb(33, 40, 139);
+    padding: 10px 4px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    display: inline-block;
+}
+#heros a:hover{
+    background-color: rgb(20, 22, 56);
+}
+
+#courses{
+    margin-top: 30px;
+    text-align: center;
+}
+#courses h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(20, 20, 59);
+    margin-bottom: 30px;
+}
+
+#courses img{
+    height: 200px;
+    margin: 0px 7px;
+    border-radius: 7px;
+    
+}
